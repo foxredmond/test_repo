@@ -42,7 +42,7 @@ Should be more space now.
 
 **To include an image inside the folder where your `Rmd` file is located.
 Then type `![]full_image_filname_here){width = "50"}`
-![](../../images/5E43161.jpeg){width="50%"}
+![](../images/IMG_5247.jpeg){width="50%"}
 
 
 # RMarkdown
@@ -89,7 +89,7 @@ To manually set working directory while building up my Rmarkdown file, just go t
 
 ```{r read data, }
 library(readr)
-energy <- read_csv("../../data/IRENA data.csv", skip = 1)
+energy <- read_csv("../data/IRENA data.csv", skip = 1)
 ```
 
 ```{r explore data, }
@@ -121,4 +121,6 @@ energy %>% pull(Technology) %>% unique %>% sort
 ```
 
 ## Bring in more datasets
+
+### Test 
 
